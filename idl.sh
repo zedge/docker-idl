@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 if [ -n "$(type -path idl)" ]; then
     exec idl "$@"
